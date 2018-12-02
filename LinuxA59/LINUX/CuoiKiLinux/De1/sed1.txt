@@ -1,0 +1,5 @@
+/Ha Lan/ s/M1/1/
+/Vu Ha/ s/M2/1.5/
+/Tran Ngoc/ s/M3/2/
+/Nguyen Anh/ s/M1/1/
+/Nguyen Quyen/ s/M2/1.5/

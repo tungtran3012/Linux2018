@@ -1,0 +1,4 @@
+1 pen 5 20.00
+2 rubber 10 2.00
+3 pencil 3 3.50
+4 cock 2 45.50

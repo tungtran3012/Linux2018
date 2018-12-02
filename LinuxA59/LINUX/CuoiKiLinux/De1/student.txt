@@ -1,0 +1,5 @@
+Ha_Lan K58A2 4 6 8
+Nguyen_Bac K59A3 3 5 9
+Tran_Long K57A3 6 8 2
+Nguyen_Huyen K57A3 2 10 9
+Ngoc_Linh K58A2 8 7 6

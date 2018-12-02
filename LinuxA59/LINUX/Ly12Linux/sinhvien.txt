@@ -1,0 +1,7 @@
+1 Nguyen_Van_A K58A2 ThaiBinh 400 O
+2 Nguyen_Van_B K58A2 NamDinh 350 A
+3 Pham_Van_C K59A3 HaNoi 350 AB
+4 Le_Van_D K58A3 ThanhHoa 300 B
+5 Nguyen_Van_E K58A3 HaiPhong 350 O
+6 Le_Van_F K58A2 QuangNinh 350 B
+7 Vu_Thi_G K58A3 ThaiBinh 200 A

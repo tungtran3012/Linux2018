@@ -1,0 +1,17 @@
+Bài thực hành VI
+Linux do Linus Torvalds, một sinh viên tại trường Đại Học ở Helsinki (Phần Lan)
+phát triển dựa trên hệ điều hành Minix, một hệ điều hành có cấu trúc tương tự
+Unix với các chức năng tối thiểu được dùng trong dạy học.
+Hiện nay, Linux là một hệ điều hành với mã nguồn mở (Open Source) và miễn
+phí (free) dưới bản quyền của tổ chức GNU (Gnu’s Not Unix).
+Khởi đầu, Linux được thiết kế để hoạt động trên nền tảng của kiến trúc
+i386 Intel với khả năng đa tác vụ (multitasking). Tuy nhiên ngày nay, Linux đã có
+các phiên bản trên các họ chip khác chẳng hạn như chip Alpha.
+Linux có nguyên lý hoạt động tương tự hệ điều hành Unix (Unix-like). Mặc dù
+Linux không phải là Unix nhưng người ta vẫn xem Linux như là phiên bản Unix
+trên PC (PC version of Unix OS).
+Linux là hệ điều hành: Về mặt nguyên tắc hệ điều hành cũng là một software;
+nhưng đây là một software đặc biệt – được dùng để quản lý, điều phối các tài
+nguyên (resource) của hệ thống (bao gồm cả hardware và các software khác).
+Linux còn được gọi là Open Source Unix (OSU), Unix-like Kernel, clone of the
+UNIX operating system.

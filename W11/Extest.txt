@@ -1,0 +1,4 @@
+1 Bill_Gates k60a2
+2 Barack_Obama k60a3
+3 Lionel_Messi k k60a3
+4 Kim_Jong_Un k60a2

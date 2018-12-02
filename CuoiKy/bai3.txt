@@ -1,0 +1,12 @@
+drwxr-xr-x  3 vt vt 1024 Dec 20 18:23 bai1.txt
+drwxr-xr-x  2 student vt 1024 Dec  2 07:43 bai2.txt
+drwxr-xr-x 10 vt vt 1024 Dec  6 02:34 Download
+drwxr-xr-x  1 student student 8447 Dec  3 19:23 Exercise	
+-rw-r--r--  1 vt vt 8445 Dec  1 21:17 bai3.docx
+-rw-rw-r--  1 student student  924 Dec 20 18:09 bai4.txt
+/*drwxr-xr-x  2 vt vt 1024 Dec  2 07:43 Music */
+/*drwxr-xr-x  2 student vt 1024 Dec  2 07:43 Pictures*/
+drwxr-xr-x  2 student student 1024 Dec  2 07:43 Public
+drwxr-xr-x  2 vt vt 1024 Dec  2 07:43 Templates
+drwxr-xr-x  2 student vt 1024 Dec  2 07:43 Videos
+

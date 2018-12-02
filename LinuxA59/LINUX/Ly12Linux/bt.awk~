@@ -1,0 +1,25 @@
+BEGIN{
+    sum=0
+}
+{
+    a[$3]++
+    b[$4]++
+    c[$6] += $5
+    sum +=$5
+}
+END{
+    printf"\nTong so sinh vien = %d",NR
+    printf"\nTong so lop: %d",length(a)
+    for(i in c)
+	printf"\nSo sinh vien que o %s la %d",i,c[i]
+    max=0
+    for(i in b)
+	if(max<b[i])
+	{   max=b[i]
+	    k=i
+	}
+printf"\nLop co nhieu sinh vien nhat la %s co so sv %d",k,max
+printf"\nTong so sinh vien da hien mau %d",sum
+for(i in d)
+    printf "\n Tong so mau theo loai %s la %d",i,d[i]
+}

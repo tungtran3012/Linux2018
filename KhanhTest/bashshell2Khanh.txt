@@ -1,0 +1,68 @@
+Bai 1:
+	#!/bin/bash
+	sum=0
+	read n
+	if [ $n -lt 1 ]
+	then
+		echo "nhap lai n"
+	else 
+		for (( i=1; i <=n; i++ ))
+		do
+			sum=`expr $sum + $i`
+		done
+		echo "Tong la: $sum"
+	fi
+Bai 2:
+	#!/bin/bash
+	for (( i=1; i<=10; i++ ))
+	do
+		multiple=`expr $1 \* $i`
+		echo "$1 x $i = $multiple"
+	done
+Bai 3:
+	#!/bin/bash              
+	files=`ls | grep *.doc`; //  tuong duong voi for file in /home/student/*.doc
+	for file in $files       //
+	do
+		mv "$file" "${file%doc}txt"
+	done 
+Bai 4
+	#!/bin/bash
+	for i in 1 2 3 4
+	do
+		var=`echo toi la sinh vien $i > file$i.txt`
+		echo $var
+	done
+Bai 5:
+#!/bin/bash
+	file=$1
+	if [ -f $file ]
+	then
+		biggest=
+		while read -r line
+		do
+			if [ ${#biggest} -le ${#line} ]
+			then
+				biggest="$line"
+			fi
+		done < "$file"
+		echo "Dong dai nhat: $biggest"
+		echo "So ky tu: ${#biggest}"
+	fi
+Bai 6:
+	#!/bin/bash
+	for((i=1;i<=9;i++))
+	do
+		for((j=1;j<=9;j++))
+		do
+			a=`expr $i + $j`
+			b=`expr $a % 2`
+			if [ $b -eq 1 ]
+			then
+				echo -e -n "\033[40m  "
+			else
+				echo -e -n "\033[47m  "
+			fi
+		done
+		echo -e "\033[0m"
+	done

@@ -1,0 +1,14 @@
+BEGIN{
+    array=$3
+    i=length(array)
+print i
+    for(j=1;j<i;j++)
+	if(array[j] == array[0]) i--
+    print i
+}
+END{
+    print i+1
+    print "Tong so sinh vien la:", NR
+}
+
+

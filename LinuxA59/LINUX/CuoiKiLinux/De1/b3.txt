@@ -1,0 +1,6 @@
+1.sed -f sed1.txt friend.txt > out1.txt
+2.sed 's/*//g' friend.txt > out2.txt
+3.sed 's/^$/============/' out2.txt > out3.txt
+4.sed '/^Nguyen/!d' friend.txt >out4.txt
+5.sed '1,4 !d' friend.txt 
+
