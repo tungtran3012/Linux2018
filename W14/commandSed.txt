@@ -1,0 +1,9 @@
+1.sed 's/Abad/Aurangabad/' friends.txt
+2.sed 's/MH/Maharastra/' friends.txt
+3.sed 's/[*]+/^$/' friends.txt
+4.sed -n '/Ha/p' friends.txt
+5.sed -n '1,4p' friends.txt
+6.sed -e '$a Nguyen Van A 5/3/97 Computer Game ,Thanh Hoa, VN' -e '$a Nguyen Van B 16/1/97 Food,Music , Ha Noi, VN' friends.txt
+7. sed -i '5s/.*/Nguyen Van C/' friends.txt
+
+Shell/ awk / sed

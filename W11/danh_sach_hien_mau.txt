@@ -4,3 +4,4 @@
 4 Le_Van_D 300 B
 5 Nguyen_Van_A 350 O
 6 Le_Van_D 350 B
+7 Nguyen_Van_K 750 A

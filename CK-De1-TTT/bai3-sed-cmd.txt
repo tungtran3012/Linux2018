@@ -1,0 +1,7 @@
+1.sed /^$/d bai3.txt > out1.txt
+2.sed 's/[*]\+/=====/' bai3.txt > out2.txt
+3.sed -n '/^.*[94]$/p' bai3.txt > out3.txt
+4.sed -n '/.*HaNoi.*/p' bai3.txt >out4.txt
+5.sed 's/^Nguyen/Dao/' bai3.txt >out5.txt
+6.sed -e '$a DuLanAnh 142231 HaiPhong 03/12/94 5 6 3' bai3.txt >out6.txt
+

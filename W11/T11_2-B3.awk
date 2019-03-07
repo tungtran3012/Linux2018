@@ -7,8 +7,7 @@ BEGIN{max=0}
 
 	m=ten[$2]
 	if(max<m){
-		max=m
-		ng=$2	
+		max=m	
 	}
 }
 END{

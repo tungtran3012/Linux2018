@@ -1,0 +1,38 @@
+f1(){
+cd ..
+cd ..
+mkdir dir1/testDir2/TranThanhTung_15004267
+}
+f2(){
+ls Bai1 | wc -l
+}
+f3(){
+cd Bai1
+for i in *.docx
+do
+	cp $i /home/morph/dir1/testDir2/TranThanhTung_15004267
+done
+}
+f4(){
+head -5 Bai1/vidu.txt
+}
+bai1(){
+while [ true ]
+do
+echo "1. Tạo thư mục HoVaTen_1 (trong đó HoVaTen là họ và tên của bạn, viết liền,
+không dấu) tại đường dẫn /home/student/Desktop"
+echo "2. Đếm xem có bao nhiêu tệp tin và thư mục nằm trong thư mục Bai1"
+echo "3. Sao chép các tệp tin có đuôi .docx sang thư mục HoVaTen_1"
+echo "4. Hiển thị 5 dòng đầu của tệp tin vidu.txt trong thư mục HoVaTen_1"
+echo "5. Thoát"
+read choose
+case $choose in
+1)f1;;
+2)f2;;
+3)f3;;
+4)f4;;
+5)break
+esac
+done
+}
+bai1

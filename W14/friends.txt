@@ -1,0 +1,13 @@
+-----------------------------------------------------------------------
+Name		DOB		Hobby			Phone		#
+-----------------------------------------------------------------------
+Ha Lan		5/12/93		Food, Music		98220-5678 	5/22,Street 4, Abad,MH,INDIA.
+
+Vu Ha 		15/6/72 	Computers, Book Reading	98220-3333	22, Thanh xuan, VietNam.
+*****************
+M.M. Kale	2/1/91 		Food, Drinks, Lifestyle	98220-6823 	6/21, Abad,MH,USA.
+*****************
+Ngoc Le 	9/10/90 	Colletion of Old coins	98220-6877 	Flat No.9,MH, MH Sing.
+*****************
+N.K. Kulkarni 	1/2/94 		Computer Games		98220-9888	88, Tu Liem, HN, VietNam.
+-----------------------------------------------------------------------

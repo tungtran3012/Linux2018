@@ -1,0 +1,4 @@
+Pen 	5	20.00
+Pencil	10	2.00
+Rubber	3	3.50
+Cock	2	45.50

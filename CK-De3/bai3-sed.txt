@@ -1,0 +1,4 @@
+1.sed -n '/.*student.*student/p' bai3.txt
+2.sed 's/\/\*/##/' bai3.txt | sed 's/\*\//##/'
+3.sed 1d bai3.txt
+
